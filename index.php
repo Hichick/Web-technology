@@ -21,7 +21,7 @@
 <div class="main">
 
 <nav>
-        <a href="/">Главная</a>  <a href="#">Воин</a> <a href="#">Маг</a>  <a href="#">Охотник</a> <a href="#">Шаман</a>  <a href="#">Чернокнижник</a> <a href="#">Разбойник</a> <a href="#">Жрец</a> <a href="#">Друид</a> <a href="#">Паладин</a>
+        <a href="/">Главная</a> <a href="decks.php">Все колоды</a> <a href="add.php">Добавить колоду</a>
 </nav>
 
 <div class="content">
@@ -35,7 +35,7 @@
   <div class="cover_mask"></div>
   <div class="cover_img"><img  width="272" height="145"  src="img/first_news.jpg" alt="Новый Малигос Разбойник" /></div>
   <div class="deck_content">
-  <a href="">Новый Малигос Разбойник</a>
+  <a href="info.php">Новый Малигос Разбойник</a>
   <hr/>
   
   Представляю вам колоду Миракл Малигос Разбойника, при помощи которой я взял топ-23 Легенды в апрельском сезоне 2015 года. 
@@ -49,7 +49,7 @@
   <div class="cover_mask"></div>
   <div class="cover_img"><img  width="272" height="145"  src="img/first_news.jpg" alt="Новый Малигос Разбойник"  /></div>
   <div class="deck_content">
-  <a href="">Новый Малигос Разбойник</a>
+  <a href="info.php">Новый Малигос Разбойник</a>
   <hr/>
   
   Представляю вам колоду Миракл Малигос Разбойника, при помощи которой я взял топ-23 Легенды в апрельском сезоне 2015 года. 
@@ -66,7 +66,7 @@
   <div class="cover_mask"></div>
   <div class="cover_img"><img  width="272" height="145"  src="img/first_news.jpg" alt="Новый Малигос Разбойник" /></div>
   <div class="deck_content">
-  <a href="">Новый Малигос Разбойник</a>
+  <a href="info.php">Новый Малигос Разбойник</a>
   <hr/>
   
   Представляю вам колоду Миракл Малигос Разбойника, при помощи которой я взял топ-23 Легенды в апрельском сезоне 2015 года. 
@@ -80,7 +80,7 @@
   <div class="cover_mask"></div>
   <div class="cover_img"><img  width="272" height="145"  src="img/first_news.jpg" alt="Новый Малигос Разбойник"  /></div>
   <div class="deck_content">
-  <a href="">Новый Малигос Разбойник</a>
+  <a href="info.php">Новый Малигос Разбойник</a>
   <hr/>
   
   Представляю вам колоду Миракл Малигос Разбойника, при помощи которой я взял топ-23 Легенды в апрельском сезоне 2015 года. 
