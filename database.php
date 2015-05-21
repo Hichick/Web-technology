@@ -78,6 +78,47 @@ class database {
         
     }
     
+    public function UpdateLikeDeck ($rawPostData)
+    {
+        $db = mysql_connect($this->host,$this->user,$this->pass)  or die("Невозможно соединиться с базой");
+        mysql_select_db("hs",$db)  or die("Невозможно выбрать базу");
+        
+        $xml = new SimpleXMLElement($rawPostData);
+        foreach ($xml as $key => $value) {
+        	$$key = $value;
+            
+            if($key=="id")
+            {
+                $id = $value;
+            }
+            
+            if($key=="like")
+            {
+                $like=$value;
+            }
+        }
+        
+        $queryResult = mysql_query("SELECT * FROM deck WHERE id=$id",$db);
+        $row = mysql_fetch_array($queryResult);
+        
+        $like = $row['like'] + $like;
+        
+        mysql_query("UPDATE `deck` SET `like`=$like WHERE `id`=$id",$db); 
+        
+        header('Content-Type: text/xml');
+        $xml = "<?xml version=\"1.0\" ?>";
+        
+        $xml.= "<deck>";
+        
+        $xml.= "<id>" . $id . "</id>";
+        $xml.= "<like>" . $like . "</like>";
+        
+        
+        $xml.= "</deck>";
+        
+        return $xml;
+    }
+    
 }
 
 

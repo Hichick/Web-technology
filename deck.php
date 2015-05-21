@@ -13,6 +13,7 @@ class deck {
     private $description;
     private $class;
     private $img;
+    private $like;
     
     public function __construct($deck) {
         
@@ -21,6 +22,7 @@ class deck {
        $this->description = $deck['description'];
        $this->class = $deck['class'];
        $this->img = $deck['img'];
+       $this->like = $deck['like'];
     }
     
     public function AddDeck() // Добавление деки
@@ -103,6 +105,11 @@ class deck {
     public function GetImage()
     {
         return $this->img;
+    }
+    
+    public function GetLike()
+    {
+        return $this->like;
     }
     
 }

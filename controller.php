@@ -45,7 +45,8 @@ switch($_GET['action'])
                 'title'=>$_POST['title'],
                 'class'=>$_POST['class'],
                 'description'=>$_POST['description'],
-                'img'=>$_FILES['image']
+                'img'=>$_FILES['image'],
+                'like'=>0
                 
             );
             
@@ -63,7 +64,7 @@ switch($_GET['action'])
             
             if(!$deck->ValidationImage())
             {
-                $error.="Формат загружаемой картинки не поддерживаеться.";  
+                $error.="Формат загружаемой картинки не поддерживаеться.";
             }
             
             if($deck->ValidationImage() && $deck->ValidationTitle() && $deck->ValidationDescription())
@@ -76,6 +77,15 @@ switch($_GET['action'])
         $content_view = "add_view";
         require_once("template_view.php");
         break;
+}
+
+if(isset($GLOBALS['HTTP_RAW_POST_DATA']))
+{
+    $rawPostData = $GLOBALS['HTTP_RAW_POST_DATA'];
+    
+    $db = new database();
+    
+    echo $db->UpdateLikeDeck($rawPostData);
 }
 
 ?>
