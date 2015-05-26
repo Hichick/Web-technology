@@ -1,0 +1,463 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.body {
+    
+    width: 1920px;
+    height: 1080px;
+    background: rgb(0,0,0); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgb(0,0,0) 0%, rgb(2,20,42) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgb(0,0,0)), color-stop(100%,rgb(2,20,42))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg,  rgb(0,0,0) 0%,rgb(2,20,42) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg,  rgb(0,0,0) 0%,rgb(2,20,42) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg,  rgb(0,0,0) 0%,rgb(2,20,42) 100%); /* IE10+ */
+    background: linear-gradient(45deg,  rgb(0,0,0) 0%,rgb(2,20,42) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#02142a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    padding: 0;
+    margin: 0;
+    font-size: 15pt;
+}
+
+@font-face {
+    font-family: DejaVuSans; /* Гарнитура шрифта */
+    src: url(fonts/TikalSans-Medium-webfont.ttf); /* Путь к файлу со шрифтом */
+   }
+   
+@font-face {
+    font-family: DejaVuSansMono; /* Гарнитура шрифта */
+    src: url(fonts/DejaVuSansMono.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Andale; /* Гарнитура шрифта */
+    src: url(fonts/AndaleMono.ttf); /* Путь к файлу со шрифтом */
+   }
+@font-face {
+    font-family: Ubuntu-M; /* Гарнитура шрифта */
+    src: url(fonts/Ubuntu-R.ttf); /* Путь к файлу со шрифтом */
+   }
+
+.top {
+    
+    width: 100%;
+    height: 40px;
+    background: #000000;
+    color: #d1d1d1;
+    font-family: DejaVuSans;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+}
+
+#Activities
+{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    
+}
+
+#Terminal
+{
+    position: absolute;
+    left: 170px;
+    top: 10px;
+
+}
+
+
+#Date
+{
+    position: absolute;
+    left: 910px;
+    top: 10px;
+
+}
+
+#SteamOS
+{
+    position: absolute;
+    right: -10px;
+    top: 10px;
+
+}
+
+
+.content {
+    
+    position: absolute;
+    left: 433px;
+    top:162px;
+    width: 1059px;
+    height: 680px;
+    background: #ffffff;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  
+    
+    padding-left: 1px;
+}
+
+.top_content {
+    
+    width: 100%;
+    height: 80px;
+    font-size: 16pt;
+    font-family: Ubuntu-M;
+    
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+     background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgb(255,255,255) 0%, rgb(237,237,237) 70%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,255,255)), color-stop(70%,rgb(237,237,237))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgb(255,255,255) 0%,rgb(237,237,237) 70%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgb(255,255,255) 0%,rgb(237,237,237) 70%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgb(255,255,255) 0%,rgb(237,237,237) 70%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgb(255,255,255) 0%,rgb(237,237,237) 70%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+
+
+
+}
+#desktop {
+    
+    position: absolute;
+    left:422px;
+    top: 10px;
+    font-weight: bold;
+}
+
+#File_menu {
+    
+    position: absolute;
+    top: 50px;
+    left:10px;
+}
+
+#Edit {
+    
+    position: absolute;
+    top: 50px;
+    left:60px;
+}
+
+#View {
+    
+    position: absolute;
+    top: 50px;
+    left:115px;
+}
+
+#Search {
+    
+    position: absolute;
+    top: 50px;
+    left:182px;
+}
+
+#Terminal_menu {
+    
+    position: absolute;
+    top: 50px;
+    left:262px;
+}
+
+#Help {
+    
+    position: absolute;
+    top: 50px;
+    left:364px;
+}
+
+.status_content {
+    
+    width: 100%;
+    height: 26px;
+    background-color: #21292c;
+    font-family: DejaVuSansMono;
+    color: #ffffff;
+}
+
+
+#GNU {
+    
+    position: absolute;
+    left: 28px;   
+}
+
+#File {
+    
+    position: absolute;
+    left: 328px;   
+}
+
+#Modified {
+    
+    position: absolute;
+    right: 46px;   
+}
+
+.text_content {
+    
+    font-family: Andale;
+    
+    width: 100%;
+    height: 524px;
+    background-color: #ffffff;
+    
+    letter-spacing: -1px;
+    font-size: 17pt;
+    line-height: 25px;
+    font-weight: bold;
+
+}
+
+.bin {
+    
+    color:#10b7b0;
+    font-weight: bold;
+}
+
+.special {
+    
+    color:#4e9f14;
+    font-weight: bold;
+}
+
+.export {
+    
+    color:#6b9ad2;
+    font-weight: bold;
+}
+
+.selected {
+    
+    background-color: #21292c;
+    color:#ffffff;
+    padding: 2px 2px 2px 2px;
+}
+
+
+.second_menu {
+    
+    position: absolute;
+    left: 170px;
+}
+
+.third_menu {
+    
+    position: absolute;
+    left: 340px;
+}
+
+.forth_menu {
+    
+    position: absolute;
+    left: 510px;
+}
+
+.fith_menu {
+    
+    position: absolute;
+    left: 680px;
+}
+
+.six_menu {
+    
+    position: absolute;
+    left: 850px;
+}
+
+.menu_content {
+    font-family: Andale;
+    letter-spacing: -2px;
+    width: 100%;
+    height: 55px;
+    background-color: #ffffff;
+    font-size: 17pt;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+
+
+
+
+.icon_computer {
+    
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    left:64px;
+    top:66px;
+    
+    
+    
+}
+
+.computer {
+    
+    position: absolute;
+    color: #d1d1d1;
+    font-family: DejaVuSans;
+    left:41px;
+    top:120px;
+    font-size: 16pt;
+}
+
+
+.icon_home {
+    
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    left:64px;
+    top:166px;
+    
+    
+    
+}
+
+.home {
+    
+    position: absolute;
+    color: #d1d1d1;
+    font-family: DejaVuSans;
+    left:62px;
+    top:220px;
+    font-size: 16pt;
+}
+
+.icon_steam {
+    
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    left:64px;
+    top:261px;
+ 
+}
+
+.steam {
+    
+    position: absolute;
+    color: #d1d1d1;
+    font-family: DejaVuSans;
+    left:41px;
+    top:311px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 25px;
+    font-size: 16pt;
+}
+
+.icon_valve {
+    
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    left:64px;
+    top:405px;
+    
+    
+    
+}
+
+.valve {
+    
+    position: absolute;
+    color: #d1d1d1;
+    font-family: DejaVuSans;
+    left:41px;
+    top:460px;
+    text-align: center;
+    font-size: 16pt;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.icon_trash {
+    
+    position: absolute;
+    width: 50px; 
+    height: 50px;
+    left:225px;
+    top:66px;
+    
+    
+    
+}
+
+.trash {
+    
+    position: absolute;
+    color: #d1d1d1;
+    font-family: DejaVuSans;
+    left:220px;
+    top:120px;
+    font-size: 16pt;
+    letter-spacing: 1px;
+ 
+}
+
+.close {
+    
+    position: absolute;
+    width: 38px; 
+    height: 38px;
+    border-radius: 0px 5px 0px 5px;
+    background: #e8e9e9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e8e9e9 0%, #cecece 28%, #d2d2d2 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e9e9), color-stop(28%,#cecece), color-stop(100%,#d2d2d2)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #e8e9e9 0%,#cecece 28%,#d2d2d2 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #e8e9e9 0%,#cecece 28%,#d2d2d2 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #e8e9e9 0%,#cecece 28%,#d2d2d2 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #e8e9e9 0%,#cecece 28%,#d2d2d2 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e9e9', endColorstr='#d2d2d2',GradientType=0 ); /* IE6-9 */
+
+
+    right: 0px;
+    border-left: 1px solid #B2B2B2;
+    border-bottom: 1px solid #B2B2B2;
+    
+}
+
+
+.close_x {
+    position: absolute;
+    top:5px;
+    left:14px;
+    color: #ffffff;
+    font-family: DejaVuSans;  
+}
+
+
+.audio {
+    
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 285px;
+    top: 8px;
+}
+
+
+.network {
+    
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 230px;
+    top: 8px;
+}
