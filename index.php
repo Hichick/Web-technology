@@ -16,6 +16,8 @@
 <img src="img/logo.png" alt="HearthStone" />
 </div>
 
+
+
 </header>
 
 <div class="main">
@@ -25,9 +27,12 @@
 </nav>
 
 <div class="content">
-
-  <p>Hearthstone: Heroes of Warcraft — компьютерная коллекционная карточная онлайн-игра по мотивам вселенной Warcraft, разработанная Blizzard Entertainment и распространяемая по модели free-to-play. В игре Blizzard поддерживается Battle.net, и загрузка происходит через лаунчер от Blizzard. Продукт выпущен на PC, OS X, iOS и Android. Версия игры для iPad доступна для загрузки в App Store. Версия для Android-планшетов вышла 16 декабря 2014 года. На момент выхода, загрузка из Google Play была доступна только для Канады, Новой Зеландии и Австралии. С 18 декабря 2014 года стала доступна для Европы.</p>
+    
+    <img class="img_stone" src="img/hearthbreak.png" width="125" height="125" />
+   <p>
+  Hearthstone: Heroes of Warcraft — компьютерная коллекционная карточная онлайн-игра по мотивам вселенной Warcraft, разработанная Blizzard Entertainment и распространяемая по модели free-to-play. В игре Blizzard поддерживается Battle.net, и загрузка происходит через лаунчер от Blizzard. Продукт выпущен на PC, OS X, iOS и Android. Версия игры для iPad доступна для загрузки в App Store. Версия для Android-планшетов вышла 16 декабря 2014 года. На момент выхода, загрузка из Google Play была доступна только для Канады, Новой Зеландии и Австралии. С 18 декабря 2014 года стала доступна для Европы.</p>
   
+  <br /><br />
   <a href="">Последние колоды:</a>
   <hr />
   <div class="deck">

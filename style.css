@@ -36,6 +36,18 @@ footer {
     
 }
 
+
+.img_stone {
+    
+    width: 125px;
+    height: 125px;
+    float:left;
+    -webkit-animation:anim 3s infinite;
+    -webkit-animation-timing-function:linear;
+    
+}
+
+
 a {
     color: #222228;
     text-decoration: none;
@@ -163,6 +175,14 @@ img {
 }
 
 
+@-webkit-keyframes anim 
+{
+    0%   { opacity: 1;}
+    25%  { opacity: 0.75;}
+    50%  { opacity: 0.6;}
+    75%  { opacity: 0.75;}
+    100% {  opacity: 1; }
+}
 
 /* Стили полей ввода */
 .textbox{
